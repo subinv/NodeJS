@@ -1,0 +1,11 @@
+Node JS Master Class
+-------------------------------------------------------
+node in 2011, developed in 2009 by Ryan dahl. there was less response from hacker news. 2010 created npm. collaborating the code. MongoDB in feb 2009.
+JSON used by social medias enhanced the use of RESTful JSON Apis our SOAP or XML
+ExpressJS Moongoose(plug MongoDB and Node) Angular Node for Windows (MEAN Stack)
+NodeJS foundations
+V8 Chrome JS Engine (machine code that modern computers understand) js interpreter
+JSCore(iOS), SpiderMonkey(Firefox), Chakra(ie)
+NodeJs is a serverside js runtime environment.
+V8 is the cars engine and drivetrain.Nodejs is evertyhing else that makes the car. you are the driver.
+Nodejs is a c++ application thats embeds the v8 js engine.
