@@ -9,3 +9,25 @@ JSCore(iOS), SpiderMonkey(Firefox), Chakra(ie)
 NodeJs is a serverside js runtime environment.
 V8 is the cars engine and drivetrain.Nodejs is evertyhing else that makes the car. you are the driver.
 Nodejs is a c++ application thats embeds the v8 js engine.
+
+call the script processor with : node {script name} eg node index.js
+first he event loop starts when the file scripts executes.
+event loop is continually checkong if there any new for nodejs to do.
+event loops has tasks hich runs in loop 
+nodjs process non blocking . it makes a db request move that to event loop as callback so the main thread is not blocked.
+there is only one entry point to node. and the entire application runs on that file. how because of modules require and import.
+Node module system creates a dependency tree, which tells node which files are needed to run the application.
+Nodes script processor do read the file read its dependency execute the synchronous and then tododlist list by event loop
+REPL (Read Eval Print loop) -- it works like console in we browser it isa way to define and executejs code against the v8 engine in real time.. to envike REPL just enter node. it just writing the js and press enter.
+Common patterns in an applications
+package.json, package.lock.json
+.npmrc - config to have the private repo access
+.env file for the environment specific
+.travis.yml
+.gitignore,.git
+@param @todo for each function defined which helps for documentation
+test folder for testing
+
+// 1st App
+An uptime monitor allows users to enter URLs they want monitored, and receive alerts when those resources go down or come back up. App shuld be useabe so we ill include features such as user sign-up and sign-in. We will also include functionlity for sending an SMS alert to a user rather than email.
+-- Twilio to sned SMS
